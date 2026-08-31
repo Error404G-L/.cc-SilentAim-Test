@@ -62,3 +62,6 @@ Run `npm ci --ignore-scripts` and `npm test` with Node.js installed. The pinned 
 The runner compiles the actual delivered script as Luau and executes it against a mocked Roblox environment. It also checks that the deliverable is ASCII, comment-free, and does not contain remote-loader or file-access APIs. Tests cover targeting, inputs, GUI construction, ray arguments, lifecycle, failure handling, and repeat execution.
 
 Mock tests do not verify native executor semantics, actual GUI rendering, mobile layout, game weapon integration, server-accepted damage, or performance on a real player population. Those require testing in the intended Roblox experience. No live execution or injection was performed.
+
+
+<img width="1400" height="1160" alt="image" src="https://github.com/user-attachments/assets/41e15369-6c6f-4a59-b14a-f36108d3b25a" />
